@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-  "home-work": "http://klevoDev.github.io/home-work",
+  "homepage": "https://klevodev.github.io/home-work/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

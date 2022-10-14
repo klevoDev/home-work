@@ -2,6 +2,7 @@ import React from 'react'
 import s from './Message.module.css'
 import {MessageType} from "../HW1";
 
+
 // нужно создать правильный тип вместо any
 type MessagePropsType = {
     message: MessageType
@@ -15,7 +16,7 @@ const Message = (props: MessagePropsType) => {
                 <img
                     id={'hw1-avatar-' + props.message.id}
                     // создаёт студент
-
+                    src={props.message.user.avatar}
                     //
                 />
                 <div className={s.text}>
